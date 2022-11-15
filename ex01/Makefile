@@ -1,9 +1,9 @@
 CXX = c++
 # CXX = g++-12
 
-NAME = BraiiiiiiinnnzzzZ
+NAME = groupOfZombies
 
-SRCS = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS = main.cpp Zombie.cpp zombieHorde.cpp
 
 CFLAGS = -Werror -Wextra -Wall -std=c++98 #-pedantic # -g
 
