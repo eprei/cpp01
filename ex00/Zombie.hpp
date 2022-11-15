@@ -3,8 +3,8 @@
 #include <iostream>
 #include <iomanip>
 
-class Zombie{
-
+class Zombie
+{
 	public:
 
 		Zombie(void);
