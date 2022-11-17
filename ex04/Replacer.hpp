@@ -1,7 +1,7 @@
 #ifndef REPLACE_HPP
 # define REPLACE_HPP
-#include <string>
-#include <fstream>
+# include <string>
+# include <fstream>
 
 class Replacer
 {
@@ -9,14 +9,12 @@ class Replacer
 		Replacer(void);
 		~Replacer(void);
 
-		void	getArgs(char **argv);
-		bool	checkArgs(void) const;
-		void	set_outputFileName(void);
+		bool	getArgs(char **argv);
 		void	execReplacement(void);
 
 	private:
-		std::string 	_inputFileName;
-		std::string 	_outputFileName;
+		std::string		_inputFileName;
+		std::string		_outputFileName;
 		std::string		_stringToReplace;
 		std::string		_newString;
 		std::ifstream	_ifs;
